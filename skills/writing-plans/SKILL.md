@@ -28,6 +28,8 @@ Before writing the plan, detect OpenSpec state:
 - **Standard mode:** `docs/superpowers/plans/YYYY-MM-DD-<feature-name>.md`
   - (User preferences for plan location override this default)
 
+**Do NOT commit design docs, plan files, or task files to git.** These are ephemeral working artifacts for the current session. Only implementation code gets committed.
+
 ## Scope Check
 
 If the spec covers multiple independent subsystems, it should have been broken into sub-project specs during brainstorming. If it wasn't, suggest breaking this into separate plans — one per subsystem. Each plan should produce working, testable software on its own.
